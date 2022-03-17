@@ -41,6 +41,8 @@ burpsuite的[官网](https://portswigger.net/web-security/all-labs)也提供了�
 
 asp的环境需要设置iis环境，也可以使用超级小旋风AspWebServer漏洞环境。asp搭配的数据库是access、sqlserver，如果需要用到数据库也需要安装上。
 
+https://github.com/Larryxi/MSSQL-SQLi-Labs
+
 ## jsp环境
 
 参考：https://github.com/tangxiaofeng7/SecExample
