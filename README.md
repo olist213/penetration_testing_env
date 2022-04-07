@@ -45,7 +45,11 @@ https://github.com/Larryxi/MSSQL-SQLi-Labs
 
 ## jsp环境
 
-参考：https://github.com/tangxiaofeng7/SecExample
+参考：
+
+https://github.com/tangxiaofeng7/SecExample
+
+https://github.com/l4yn3/micro_service_seclab
 
 # 第二类 docker类
 
