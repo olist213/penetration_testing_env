@@ -129,7 +129,7 @@ https://github.com/Ranwu0/Struts2-Tools
 
 虚拟机类的靶场，通常需要自己下载[vmware](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)或[virtual box](https://www.virtualbox.org/)d的ova格式虚拟镜像，然后导入到虚拟机中运行。
 
-[vulnhub](https://www.vulnhub.com/)z中有很多虚拟机靶场，目标都是获取flag。
+[vulnhub](https://www.vulnhub.com/)中有很多虚拟机靶场，目标都是获取flag。
 
 注：在导入虚拟机后，首先需要获取靶机的ip地址，通常靶机都是dhcp获取ip，那么你就需要用nmap扫描你当前网段，如果网段内ip太多，就不容易识别，况且如果用vmware时，会有获取不到ip的情况。建议练习vulnhub的靶场时，用virtualbox虚拟机，如果是linux，导入后，进入修改密码的模式（开机按e），修改密码，先获取ip。
 
