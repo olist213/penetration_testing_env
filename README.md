@@ -83,6 +83,12 @@ https://github.com/javaweb-rasp/javaweb-vuln
  #初始化数据库
  先运行python manage.py runserver，然后浏览器访问http://127.0.0.1:8000/init_data接口初始化数据库，后面访问http://127.0.0.1:8000/即可。
  ```
+ 
+ 做了各docker环境:
+ 
+ ```
+ docker pull liangchenga/ljldsec:latest
+ ```
 
 # 第二类 docker类
 
