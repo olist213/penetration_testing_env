@@ -66,7 +66,7 @@ https://github.com/javaweb-rasp/javaweb-vuln
 
  ![image](https://user-images.githubusercontent.com/46209842/166251371-1b491599-a0d5-47f3-bb2a-91d7bcf44d2f.png)
  
- 逻辑漏洞靶场
+ ## 逻辑漏洞靶场
  
  https://github.com/yingshang/ywljsec
  
