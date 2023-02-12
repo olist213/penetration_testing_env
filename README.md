@@ -69,6 +69,17 @@ https://github.com/javaweb-rasp/javaweb-vuln
  逻辑漏洞靶场
  
  https://github.com/yingshang/ywljsec
+ 
+ 逻辑漏洞靶场环境安装：
+ 
+ ```
+ #安装django和faker
+ python -m pip install Django
+ pip3 install faker
+ 
+ #初始化数据库
+ 先运行python manage.py runserver，然后浏览器访问http://127.0.0.1:8000/init_data接口初始化数据库，后面访问http://127.0.0.1:8000/即可。
+ ```
 
 # 第二类 docker类
 
