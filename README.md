@@ -125,7 +125,7 @@ https://github.com/Ranwu0/Struts2-Tools
 - [attackdefense](https://attackdefense.com/)
 - [春秋云镜](https://yunjing.ichunqiu.com/)
 
-上面的这些网站，质量都挺高的。
+上面的这些网站，质量都挺高的，还有一些可自己尝试下，[Websites/Platforms to learn to hack](https://twitter.com/nandanlohitaksh/status/1580154447808065536)。
 
 虚拟机类的靶场，通常需要自己下载[vmware](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)或[virtual box](https://www.virtualbox.org/)d的ova格式虚拟镜像，然后导入到虚拟机中运行。
 
