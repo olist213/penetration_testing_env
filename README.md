@@ -19,8 +19,8 @@
 - dvwa
   - https://dvwa.co.uk/
 
-PHP代码审计分段讲解
-- [php_bugs](https://github.com/bowu678/php_bugs)
+- PHP代码审计分段讲解
+  - [php_bugs](https://github.com/bowu678/php_bugs)
 
 Pikachu是一个带有漏洞的Web应用系统，在这里包含了常见的web安全漏洞。
 - [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)
