@@ -44,6 +44,9 @@
 
   - https://github.com/fine-1/php-SER-libs
 
+- SSRF漏洞靶场
+  - https://github.com/sqlsec/ssrf-vuls
+
 ## asp/x环境
 
 asp的环境需要设置iis环境，也可以使用超级小旋风AspWebServer漏洞环境。asp搭配的数据库是access、sqlserver，如果需要用到数据库也需要安装上。
