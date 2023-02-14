@@ -143,11 +143,13 @@ https://github.com/Ranwu0/Struts2-Tools
 
 注：在导入虚拟机后，首先需要获取靶机的ip地址，通常靶机都是dhcp获取ip，那么你就需要用nmap扫描你当前网段，如果网段内ip太多，就不容易识别，况且如果用vmware时，会有获取不到ip的情况。建议练习vulnhub的靶场时，用virtualbox虚拟机，如果是linux，导入后，进入修改密码的模式（开机按e），修改密码，先获取ip。
 
-除了vulnhub的靶场，还有一些团队搭建的靶场环境，如红日安全的[ATT&CK实战系列](http://vulnstack.qiyuanxuetang.net/vuln/)。
+除了vulnhub的靶场，还有一些团队搭建的靶场环境，如:
+
+- 红日安全的[ATT&CK实战系列](http://vulnstack.qiyuanxuetang.net/vuln/)。
 
 ![](https://s2.loli.net/2022/02/23/H2NQuYJyzlErvbw.png)
 
-[windows/linux本地特权提升实验](https://github.com/sagishahar/lpeworkshop)，包含的内容都是提权相关的知识点。
+- [windows/linux本地特权提升实验](https://github.com/sagishahar/lpeworkshop)，包含的内容都是提权相关的知识点。
 
 ![](https://s2.loli.net/2022/02/23/rMfBwJo3vOVuAnm.png)
 
