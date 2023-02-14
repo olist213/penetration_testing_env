@@ -24,7 +24,7 @@
 
 - Pikachu是一个带有漏洞的Web应用系统，在这里包含了常见的web安全漏洞。
   - [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)
-  - 在线pikachu类靶场：[渊龙Sec团队官方漏洞靶场]([http://ctf.aabyss.cn/index.php)
+  - 在线pikachu类靶场：[渊龙Sec团队官方漏洞靶场](http://ctf.aabyss.cn/index.php)
 
 - 文件上传靶场
   - [upload-labs](https://github.com/c0ny1/upload-labs/releases/tag/0.1)
