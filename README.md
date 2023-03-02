@@ -48,6 +48,9 @@
 - SSRF漏洞靶场
   - https://github.com/sqlsec/ssrf-vuls
 
+- 电气鼠靶场系统
+  - https://github.com/linjiananallnt/ElectricRat
+
 ## asp/x环境
 
 asp的环境需要设置iis环境，也可以使用超级小旋风AspWebServer漏洞环境。asp搭配的数据库是access、sqlserver，如果需要用到数据库也需要安装上。
