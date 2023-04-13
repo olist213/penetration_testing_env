@@ -73,6 +73,10 @@ https://github.com/javaweb-rasp/javaweb-vuln
 
  ![image](https://user-images.githubusercontent.com/46209842/166251371-1b491599-a0d5-47f3-bb2a-91d7bcf44d2f.png)
  
+ ## weblogic靶场
+
+https://github.com/QAX-A-Team/WeblogicEnvironment
+ 
  ## 逻辑漏洞靶场
  
  https://github.com/yingshang/ywljsec
@@ -88,7 +92,7 @@ https://github.com/javaweb-rasp/javaweb-vuln
  先运行python manage.py runserver，然后浏览器访问http://127.0.0.1:8000/init_data接口初始化数据库，后面访问http://127.0.0.1:8000/即可。
  ```
  
- 做了各docker环境:
+ 做了个docker环境:
  
  ```
  docker pull liangchenga/ljldsec:latest
