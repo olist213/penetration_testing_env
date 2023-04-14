@@ -30,8 +30,9 @@
   - [upload-labs](https://github.com/c0ny1/upload-labs/releases/tag/0.1)
 
 - web漏洞靶场
-  - [webug](https://github.com/wangai3176/webug4.0)
-
+  - ~~[webug](https://github.com/wangai3176/webug4.0)~~
+  - docker搭建：`docker pull area39/webug`
+  
 - sqli注入靶场
   - [sqli-labs](https://github.com/skyblueee/sqli-labs-php7)
 
@@ -72,17 +73,17 @@ https://github.com/javaweb-rasp/javaweb-vuln
  https://github.com/j3ers3/Hello-Java-Sec
 
  ![image](https://user-images.githubusercontent.com/46209842/166251371-1b491599-a0d5-47f3-bb2a-91d7bcf44d2f.png)
- 
+
  ## weblogic靶场
 
 https://github.com/QAX-A-Team/WeblogicEnvironment
- 
+
  ## 逻辑漏洞靶场
- 
+
  https://github.com/yingshang/ywljsec
- 
+
  逻辑漏洞靶场环境安装：
- 
+
  ```
  #安装django和faker
  python -m pip install Django
@@ -91,9 +92,9 @@ https://github.com/QAX-A-Team/WeblogicEnvironment
  #初始化数据库
  先运行python manage.py runserver，然后浏览器访问http://127.0.0.1:8000/init_data接口初始化数据库，后面访问http://127.0.0.1:8000/即可。
  ```
- 
+
  做了个docker环境:
- 
+
  ```
  docker pull liangchenga/ljldsec:latest
  ```
@@ -171,5 +172,4 @@ https://github.com/crow821/vulntarget
 seed-labs：网络攻防课程中涉及的seed-labs实验代码和报告
 
 https://github.com/Seanxz401/seed-labs
-
 
