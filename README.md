@@ -141,6 +141,10 @@ docker run -p 8002:80 -d mcc0624/ser:1.8
 
 https://github.com/Ranwu0/Struts2-Tools
 
+- FastJson全版本Docker漏洞环境
+
+https://github.com/lemono0/FastJsonParty
+
 # 第三类 虚拟机
 
 虚拟机的漏洞环境，先介绍几个在线的网站，这些在线的靶场不需要下载。
