@@ -39,6 +39,7 @@
 - xxe漏洞靶场
 
   - [xxe-lab](https://github.com/c0ny1/xxe-lab)
+  - [xxe08](https://github.com/mcc0624/XXE)
 
 - burpsuite的[官网](https://portswigger.net/web-security/all-labs)也提供了很多web方面的漏洞，都是主流漏洞。
 
