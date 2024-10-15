@@ -46,6 +46,7 @@
 
   - https://github.com/fine-1/php-SER-libs
   - https://github.com/ProbiusOfficial/PHPSerialize-labs
+  - https://github.com/mcc0624/php_ser_Class
 
 - SSRF漏洞靶场
   - https://github.com/sqlsec/ssrf-vuls
