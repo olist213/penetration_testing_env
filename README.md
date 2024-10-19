@@ -151,6 +151,7 @@ docker run -d -p 80:80 -v /var/run/docker.sock:/var/run/docker.sock -e VUL_IP=x.
 - [tryhackme](https://tryhackme.com/)
 - [attackdefense](https://attackdefense.com/)
 - [春秋云镜](https://yunjing.ichunqiu.com/)
+- [pentesterlab](https://pentesterlab.com/)
 
 上面的这些网站，质量都挺高的，还有一些可自己尝试下，[Websites/Platforms to learn to hack](https://twitter.com/nandanlohitaksh/status/1580154447808065536)。
 
@@ -187,6 +188,9 @@ https://github.com/crow821/vulntarget
 - [316ctf](https://play.316ctf.com/)
 - [tctf](http://ctf.tidesec.com/)
 - [CTFd靶场搭建知识库](https://www.yuque.com/dat0u/ctfd/sm2tt0)
-
+- [NSSCTF](https://www.nssctf.cn/)
+- [ctftime](https://ctftime.org/)
+- [bugku](https://ctf.bugku.com/)
+- [picoctf](https://picoctf.org/)
 
 
