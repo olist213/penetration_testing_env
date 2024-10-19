@@ -1,20 +1,32 @@
-搭建的基础环境分成三类。
 
-1、给了源代码，需要自己动手搭建的环境，如~~dvwa~~等。
+## 0x01 靶场类别
 
-2、docker类的环境，如vulfocus，vulhub等环境已经集成了。
+搭建的基础环境一般可分成三类。
 
-3、vmware虚拟机靶场，这种靶场多涉及后渗透阶段，如内网渗透、域渗透。
+1、给了源代码，需要自己动手搭建的环境，有源码也可以通过docker搭建环境，通过Dockerfile去构建，上传至dockerhub可重复使用，java和php的构建比较简单，而asp/x用docker构建就比较少了，除了docker之外，php也可以用phpstudy这种集成环境搭建。
+
+2、docker类的环境，这里说的docker类的环境指的是那种集成类的有CVE编号的环境，如vulfocus，vulhub等环境，前人已经构建好，我们只要docker pull下来即可。
+
+3、vmware虚拟机靶场，这种靶场多涉及后渗透阶段，如内网渗透、域渗透等，如[GOAD](https://0x7e.cn/records/goad-game-of-active-directory)靶场。
+
+## 0x02 工具
 
 工艺善其事，必先利其器。
-- ~~windows~~
+
+- windows(docker desktop),mac(orb)
 - phpstudy（https://www.xp.cn/download.html）
+- ctfd
+- gzctf
 
-![](https://s2.loli.net/2022/02/23/Qovu91hlxqAJXWk.png)
+如果自己想整合自己搭建的环境或公司内部给同事练习，可以搭建一个ctf平台，如ctfd和gzctf。ctfd结合[whale](https://github.com/frankli0324/ctfd-whale)插件可以实现动态flag，添加docker类环境。
 
-# 第一类 源代码类
+![image](https://github.com/user-attachments/assets/550c8fe8-da27-4778-b96d-cba74439bda9)
 
-## php环境
+ctfd添加靶场可以去[dockerhub](https://hub.docker.com/)上找，如[vulfocus](https://hub.docker.com/u/vulfocus)的靶场环境。
+
+![image](https://github.com/user-attachments/assets/fc379984-b8ca-43e8-8f9c-2b812dbb150c)
+
+## 0x03 php环境
 
 - dvwa
   - https://dvwa.co.uk/
@@ -57,37 +69,39 @@
  
 - PHP命令执行漏洞的学习靶场
   - https://github.com/mcc0624/php_cmd/
+  - 
+- php反序列化docker环境
+https://github.com/mcc0624/php_ser_Class
 
+docker搭建
 
-## asp/x环境
+```
+docker pull mcc0624/ser:1.8
+docker run -p 8002:80 -d mcc0624/ser:1.8
+```
+
+## 0x04 asp/x环境
 
 asp的环境需要设置iis环境，也可以使用超级小旋风AspWebServer漏洞环境。asp搭配的数据库是access、sqlserver，如果需要用到数据库也需要安装上。
 
 https://github.com/Larryxi/MSSQL-SQLi-Labs
 
-## jsp环境
+## 0x05 jsp环境
 
-参考：
-
-https://github.com/tangxiaofeng7/SecExample
-
-https://github.com/l4yn3/micro_service_seclab
-
-RASP测试靶场
-https://github.com/javaweb-rasp/javaweb-vuln
-
- Java Security，安全编码和代码审计
- https://github.com/j3ers3/Hello-Java-Sec
+- [JAVA 漏洞靶场 (Vulnerability Environment For Java)](https://github.com/tangxiaofeng7/SecExample)
+- [Java漏洞靶场](https://github.com/l4yn3/micro_service_seclab)
+- [RASP测试靶场](https://github.com/javaweb-rasp/javaweb-vuln)
+- [Java Security，安全编码和代码审计](https://github.com/j3ers3/Hello-Java-Sec)
 
  ![image](https://user-images.githubusercontent.com/46209842/166251371-1b491599-a0d5-47f3-bb2a-91d7bcf44d2f.png)
 
- ## weblogic靶场
+- [weblogic靶场](https://github.com/QAX-A-Team/WeblogicEnvironment)
+- [struts2漏洞环境](https://github.com/Ranwu0/Struts2-Tools)
+- [FastJson全版本Docker漏洞环境](https://github.com/lemono0/FastJsonParty)
 
-https://github.com/QAX-A-Team/WeblogicEnvironment
+ ## 0x06 逻辑漏洞靶场
 
- ## 逻辑漏洞靶场
-
- https://github.com/yingshang/ywljsec
+https://github.com/yingshang/ywljsec
 
  逻辑漏洞靶场环境安装：
 
@@ -106,7 +120,7 @@ https://github.com/QAX-A-Team/WeblogicEnvironment
  docker pull liangchenga/ljldsec:latest
  ```
 
-# 第二类 docker类
+## 0x07 docker环境
 
 使用docker快速搭建各大漏洞靶场，目前可以一键搭建17个靶场。
 
@@ -122,33 +136,14 @@ Vulfocus 是一个漏洞集成平台，将漏洞环境 docker 镜像，放入即
 
 ```bash
 docker pull vulfocus/vulfocus:latest
-
 docker run -d -p 80:80 -v /var/run/docker.sock:/var/run/docker.sock -e VUL_IP=x.x.x.x(本机ip) vulfocus/vulfocus
-
-账号密码：admin/admin
+#账号密码：admin/admin
 ```
-
-- php反序列化docker环境
-
-https://github.com/mcc0624/php_ser_Class
-
-```
-docker pull mcc0624/ser:1.8
-docker run -p 8002:80 -d mcc0624/ser:1.8
-```
-
-- struts2漏洞环境
-
-https://github.com/Ranwu0/Struts2-Tools
-
-- FastJson全版本Docker漏洞环境
-
-https://github.com/lemono0/FastJsonParty
 
 - iwebsec
   - docker pull iwebsec/iwebsec
 
-# 第三类 虚拟机
+## 0x08 虚拟机
 
 虚拟机的漏洞环境，先介绍几个在线的网站，这些在线的靶场不需要下载。
 
@@ -179,13 +174,11 @@ https://github.com/lemono0/FastJsonParty
 
 https://github.com/crow821/vulntarget
 
-大概想到的就这些，如果还有其他的就慢慢更新，还有一些asp/x、jsp/x的环境后期慢慢整理。
-
-# 其他
+## 0x09 其他
 
 seed-labs：网络攻防课程中涉及的seed-labs实验代码和报告
 
-## ctf在线靶场
+## 0x10 ctf在线靶场
 
 - [buuoj](https://buuoj.cn/)
 - [ctf.show](https://ctf.show/)
