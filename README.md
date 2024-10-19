@@ -176,7 +176,7 @@ https://github.com/crow821/vulntarget
 
 ## 0x09 其他
 
-seed-labs：网络攻防课程中涉及的seed-labs实验代码和报告
+[seed-labs[(https://github.com/Seanxz401/seed-labs)：网络攻防课程中涉及的seed-labs实验代码和报告
 
 ## 0x10 ctf在线靶场
 
@@ -188,5 +188,5 @@ seed-labs：网络攻防课程中涉及的seed-labs实验代码和报告
 - [tctf](http://ctf.tidesec.com/)
 - [CTFd靶场搭建知识库](https://www.yuque.com/dat0u/ctfd/sm2tt0)
 
-https://github.com/Seanxz401/seed-labs
+
 
