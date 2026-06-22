@@ -178,12 +178,12 @@ docker run -d -p 80:80 -v /var/run/docker.sock:/var/run/docker.sock -e VUL_IP=x.
 ![](https://s2.loli.net/2022/02/23/rMfBwJo3vOVuAnm.png)
 
 - vulntarget靶场系列
-
-https://github.com/crow821/vulntarget
+  - https://github.com/crow821/vulntarget
 
 ## 0x09 其他
 
-[seed-labs[(https://github.com/Seanxz401/seed-labs)：网络攻防课程中涉及的seed-labs实验代码和报告
+- [seed-labs](https://github.com/Seanxz401/seed-labs)
+  - 网络攻防课程中涉及的seed-labs实验代码和报告
 
 ## 0x10 ctf在线靶场
 
@@ -198,5 +198,6 @@ https://github.com/crow821/vulntarget
 - [ctftime](https://ctftime.org/)
 - [bugku](https://ctf.bugku.com/)
 - [picoctf](https://picoctf.org/)
+- [应急响应靶场-玄机](https://xj.edisec.net)
 
 
